@@ -1,0 +1,10 @@
+#cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    row-gap: 50px;
+    column-gap: 25px;
+  }
+  #checkout{
+    margin-top: 100px;
+  }

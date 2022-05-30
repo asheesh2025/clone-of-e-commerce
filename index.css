@@ -1,0 +1,24 @@
+#navbar{
+    display: flex;
+    background-color: blueviolet;
+    padding: 5px;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 25px;
+  }
+  div{
+    justify-content: space-around;
+  }
+  a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  #items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    row-gap: 50px;
+    column-gap: 25px;
+  }
